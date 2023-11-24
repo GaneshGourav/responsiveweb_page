@@ -4,6 +4,9 @@ import logo3 from "../assests/client-logo-3.svg";
 import logo4 from "../assests/client-logo-4.svg";
 import logo5 from "../assests/client-logo-6.svg";
 import logo6 from "../assests/client-logo-7.svg";
+import communityLogo from "../assests/community-logo.svg";
+import homeLogo from "../assests/Home-logo.svg";
+import groupLogo from "../assests/Group-logo.svg";
 export const Client = () => {
   return (
     <>
@@ -29,6 +32,39 @@ export const Client = () => {
         <p className="text-[#717171] text-base mt-2">
           Who is Nextcent suitable for?
         </p>
+      </div>
+
+      <div className="flex justify-between items-center px-36 text-center font-[Inter] mt-4 ">
+        <div className=" text-center flex justify-center items-center flex-col px-8 py-6">
+          <img src={communityLogo} alt="" />
+          <p className="mt-2 font-bold text-3xl text-[#4D4D4D]">
+            Membership <br /> Organisations
+          </p>
+          <p className="text-[#717171] text-sm mt-2">
+            Our membership management <br /> software provides full automation
+            of <br /> membership renewals and payments
+          </p>
+        </div>
+        <div className=" text-center flex justify-center items-center flex-col px-8 py-6">
+          <img src={homeLogo} alt="" />
+          <p className="mt-2 font-bold text-3xl text-[#4D4D4D]">
+            National <br /> Associations
+          </p>
+          <p className="text-[#717171] text-sm mt-2">
+            Our membership management <br /> software provides full automation
+            of <br /> membership renewals and <br /> payments
+          </p>
+        </div>
+        <div className=" text-center flex justify-center items-center flex-col px-8 py-6">
+          <img src={groupLogo} alt="" />
+          <p className="mt-2 font-bold text-3xl text-[#4D4D4D]">
+            Clubs And <br /> Groups
+          </p>
+          <p className="text-[#717171] text-sm mt-2">
+            Our membership management <br /> software provides full automation
+            of <br /> membership renewals and payments
+          </p>
+        </div>
       </div>
     </>
   );
