@@ -3,7 +3,7 @@ import logo from "../assests/Logo (1).svg";
 export const Navbar = () => {
   return (
     <>
-      <div className="inline-flex gap-36 px-28 py-6 border border-sky-500 justify-around h-84 w-1440 align-baseline items-center mt-2">
+      <div className="inline-flex gap-36 px-28 py-6  justify-around h-84 w-1440 align-baseline items-center mt-2">
         <div>
           <img src={logo} alt="logo" />
         </div>
