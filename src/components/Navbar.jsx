@@ -17,7 +17,7 @@ export const Navbar = () => {
         </div>
         <div className="flex justify-between  items-center gap-2 w-52 text-[#4CAF4F] font-[Inter] text-center font-medium px-5">
           <p>Login</p>
-          <p className="border border-sky-500  py-2   bg-[#43A046] text-white px-5 rounded  leading-5 font-[Inter] text-sm gap-2 ">
+          <p className="border py-2 bg-[#43A046] text-white px-5 rounded  leading-5 font-[Inter] text-sm gap-2 ">
             Sign up
           </p>
         </div>
