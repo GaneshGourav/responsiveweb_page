@@ -6,9 +6,9 @@ export const Navbar = () =>{
     return <>
     
     
-    <div className="flex border=1px solid red border border-sky-500 justify-around h-10 align-baseline items-center">
+    <div className="flex  justify-around h-84 w-1440 align-baseline items-center mt-2">
 <div><img src={logo} alt="logo" /></div>
-<div className="flex justify-around border border-red-300 w-1/2">
+<div className="flex justify-around w-1/2 text-gray-900">
     <p>Home</p>
     <p>Service</p>
     <p>Feature</p>
@@ -16,9 +16,9 @@ export const Navbar = () =>{
     <p>Testimonial</p>
     <p>FAQ</p>
 </div>
-<div className="flex justify-between border border-red-200 w-32">
+<div className="flex justify-between  items-center w-52 text-[#43A046]">
     <p>Login</p>
-    <p>Sign up</p>
+    <p className="border border-sky-500  py-1 m-auto bg-[#43A046] text-white px-5 rounded ">Sign up</p>
 </div>
 
 
