@@ -8,16 +8,16 @@ export const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="flex justify-around w-1/2 text-gray-900 font-[Inter] gap-12 text-base font-normal leading-6">
-          <p>Home</p>
+          <p className="font-medium ">Home</p>
           <p>Service</p>
           <p>Feature</p>
           <p>Product</p>
           <p>Testimonial</p>
           <p>FAQ</p>
         </div>
-        <div className="flex justify-between  items-center gap-2 w-52 text-[#4CAF4F] font-[Inter] text-center px-5">
+        <div className="flex justify-between  items-center gap-2 w-52 text-[#4CAF4F] font-[Inter] text-center font-medium px-5">
           <p>Login</p>
-          <p className="border border-sky-500  py-2   bg-[#43A046] text-white px-5 rounded font-medium leading-5 font-[Inter] text-sm gap-2 ">
+          <p className="border border-sky-500  py-2   bg-[#43A046] text-white px-5 rounded  leading-5 font-[Inter] text-sm gap-2 ">
             Sign up
           </p>
         </div>
