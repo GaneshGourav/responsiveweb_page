@@ -4,7 +4,7 @@ import logo3 from "../assests/client-logo-3.svg";
 import logo4 from "../assests/client-logo-4.svg";
 import logo5 from "../assests/client-logo-6.svg";
 import logo6 from "../assests/client-logo-7.svg";
-import clientLogo from "../assests/client-logo-8.svg"
+
 import communityLogo from "../assests/community-logo.svg";
 import homeLogo from "../assests/Home-logo.svg";
 import groupLogo from "../assests/Group-logo.svg";
@@ -68,18 +68,7 @@ export const Client = () => {
         </div>
       </div>
 
-      <div className="flex justify-around items-center px-36 font-[Inter] text-left self-stretch m-auto border border-sky-400">
-        <div className="border border-sky-400 w-1440px">
-          <img src={clientLogo} className="py-12 h-[443px] w-[442px]"  alt="" />
-        </div>
-        <div className="border border-sky-700 flex flex-col items-start">
-          <p className="text-4xl font-semibold  text-[#4D4D4D] ">The unseen of spending three <br /> years at Pixelgrade</p>
-          <p className="mt-4 text-[#717171] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. <br /> Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed <br /> porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. <br /> Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-          <button className="rounded bg-[#4CAF4F] px-8 py-3 text-white mt-8">
-            Learn More
-          </button>
-        </div>
-      </div>
+      
     </>
   );
 };
