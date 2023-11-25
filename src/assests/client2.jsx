@@ -10,9 +10,9 @@ import logo3 from "../assests/client-logo-3.svg";
 import logo4 from "../assests/client-logo-4.svg";
 import logo5 from "../assests/client-logo-6.svg";
 import logo6 from "../assests/client-logo-7.svg";
-import image18 from "../assests/image 18.png"
-import image19 from "../assests/image 19.png"
-import image20 from "../assests/image 20.png"
+import image18 from "../assests/image 18.png";
+import image19 from "../assests/image 19.png";
+import image20 from "../assests/image 20.png";
 
 export const ClientPost = () => {
   return (
@@ -159,8 +159,55 @@ export const ClientPost = () => {
       </div>
 
       <div className="font-[Inter] mt-12">
-        <p className="text-4xl font-semibold text-[#4D4D4D]">Caring is the new marketing</p>
-        <p className="text-[#717171] text-base mt-2">The Nexcent blog is the best place to read about the latest membership insights,<br /> trends and more. See who's joining the community, read about how our community <br /> are increasing their membership income and lot's more.​</p>
+        <p className="text-4xl font-semibold text-[#4D4D4D]">
+          Caring is the new marketing
+        </p>
+        <p className="text-[#717171] text-base mt-2">
+          The Nexcent blog is the best place to read about the latest membership
+          insights,
+          <br /> trends and more. See who's joining the community, read about
+          how our community <br /> are increasing their membership income and
+          lot's more.​
+        </p>
+      </div>
+
+      <div className="flex  justify-around items-center px-[144px] mt-4 ">
+        <div>
+          <img src={image18} className="w-[300] h-[286] absolute " alt="" />
+          <div className="relative top-[170px] left-[70px] bg-[#F5F7FA] font-[Inter] p-4 rounded shadow-lg">
+            <p className="text-[#717171] text-base font-semibold">
+              Creating Streamlined <br /> Safeguarding Processes with <br />{" "}
+              OneRen
+            </p>
+            <p className="text-base font-semibold text-[#4CAF4F] mt-4 ">
+              Readmore
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src={image19} className="w-[300] h-[286] absolute " alt="" />
+          <div className="relative top-[170px] left-[70px] bg-[#F5F7FA] font-[Inter] p-4 rounded shadow-lg">
+            <p className="text-[#717171] text-base font-semibold">
+              What are your safeguarding <br /> responsibilities and how can{" "}
+              <br /> you manage them?
+            </p>
+            <p className="text-base font-semibold text-[#4CAF4F] mt-4 ">
+              Readmore
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src={image20} className="w-[300] h-[286] absolute " alt="" />
+          <div className="relative top-[170px]  left-[70px] bg-[#F5F7FA] font-[Inter] p-4 rounded shadow-lg">
+            <p className="text-[#717171] text-base font-semibold">
+              Revamping the Membership <br /> Model with Triathlon <br />{" "}
+              Australia
+            </p>
+            <p className="text-base font-semibold text-[#4CAF4F] mt-4 ">
+              Readmore
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
