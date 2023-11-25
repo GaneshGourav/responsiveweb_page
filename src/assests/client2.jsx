@@ -29,9 +29,9 @@ export const ClientPost = () => {
         </div>
       </div>
 
-      <div className="flex px-36 py-16 justify-between items-center bg-[#F5F7FA] text-left font-[Inter]">
-        <div>
-          <p className="text-4xl font-semibold text-[#4D4D4D]">
+      <div className="flex px-36 py-16 justify-around items-center bg-[#F5F7FA] text-left font-[Inter] border border-sky-800">
+        <div className="border border-teal-300">
+          <p className="text-4xl font-semibold text-[#4D4D4D] ">
             Helping a local <br />{" "}
             <span className="text-[#4CAF4F]">business reinvent itself</span>
           </p>
@@ -40,41 +40,41 @@ export const ClientPost = () => {
           </p>
         </div>
 
-        <div>
+        <div className="border border-red-400">
           <div className="flex items-center gap-4 border border-sky-600">
             <div>
-              <img src={memeberLogo} alt="" />
+              <img src={memeberLogo} className="w-[48px] h-[48px]" alt="" />
             </div>
 
             <div>
-              <p>2,245,341</p>
-              <p>Members</p>
+              <p className="text-[#4D4D4D] font-bold text-3xl">2,245,341</p>
+              <p className="text-base text-[#717171]">Members</p>
             </div>
             <div>
-              <img src={culbLogo} alt="" />
+              <img src={culbLogo} className="w-[48px] h-[48px]" alt="" />
             </div>
 
             <div>
-              <p>2,245,341</p>
-              <p>Members</p>
+              <p className="text-[#4D4D4D] font-bold text-3xl">46,328</p>
+              <p className="text-base text-[#717171]">Members</p>
             </div>
           </div>
-          <div className="flex items-center gap-4 border border-sky-600">
+          <div className="flex items-center gap-4 border border-sky-600 mt-10">
             <div>
-              <img src={event} alt="" />
+              <img src={event} className="w-[48px] h-[48px]" alt="" />
             </div>
 
             <div>
-              <p>828,867</p>
-              <p>Event Bookings</p>
+              <p className="text-[#4D4D4D] font-bold text-3xl">828,867</p>
+              <p className="text-base text-[#717171]">Event Bookings</p>
             </div>
             <div>
-              <img src={payment} alt="" />
+              <img src={payment} className="w-[48px] h-[48px]" alt="" />
             </div>
 
             <div>
-              <p>1,926,436</p>
-              <p>Payments</p>
+              <p className="text-[#4D4D4D] font-bold text-3xl">1,926,436</p>
+              <p className="text-base text-[#717171]">Payments</p>
             </div>
           </div>
 
