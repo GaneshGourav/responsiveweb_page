@@ -171,7 +171,7 @@ export const ClientPost = () => {
         </p>
       </div>
 
-      <div className="flex  justify-around items-center px-[144px] mt-4 ">
+      <div className="flex  justify-around items-center px-[144px] mt-4 mb-56 ">
         <div>
           <img src={image18} className="w-[300] h-[286] absolute " alt="" />
           <div className="relative top-[170px] left-[70px] bg-[#F5F7FA] font-[Inter] p-4 rounded shadow-lg">
@@ -208,6 +208,15 @@ export const ClientPost = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="bg-[#F5F7FA] font-[Inter] ">
+        <p className="text-6xl font-semibold leading-[76px] text-[#263238] ">
+          Pellentesque suscipit <br /> fringilla libero eu.
+        </p>
+        <button className="rounded bg-[#4CAF4F] px-8 py-3 text-white mt-8 mb-8">
+          Get a Demo
+        </button>
       </div>
     </>
   );
