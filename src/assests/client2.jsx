@@ -2,7 +2,7 @@ import clientLogo from "../assests/client-logo-8.svg";
 import memeberLogo from "../assests/memePng.png";
 import culbLogo from "../assests/culb.png";
 import event from "../assests/event.png";
-import payment from "../assests/payment.png"
+import payment from "../assests/payment.png";
 
 export const ClientPost = () => {
   return (
@@ -29,8 +29,8 @@ export const ClientPost = () => {
         </div>
       </div>
 
-      <div className="flex px-36 py-16 justify-around items-center bg-[#F5F7FA] text-left font-[Inter] border border-sky-800">
-        <div className="border border-teal-300">
+      <div className="flex px-36 py-16 justify-around items-center bg-[#F5F7FA] text-left font-[Inter]  ">
+        <div className=" w-1/3 py-5 px-2">
           <p className="text-4xl font-semibold text-[#4D4D4D] ">
             Helping a local <br />{" "}
             <span className="text-[#4CAF4F]">business reinvent itself</span>
@@ -40,8 +40,8 @@ export const ClientPost = () => {
           </p>
         </div>
 
-        <div className="border border-red-400">
-          <div className="flex items-center gap-4 border border-sky-600">
+        <div className=" w-1/3">
+          <div className="flex items-center gap-4 ">
             <div>
               <img src={memeberLogo} className="w-[48px] h-[48px]" alt="" />
             </div>
@@ -59,7 +59,7 @@ export const ClientPost = () => {
               <p className="text-base text-[#717171]">Members</p>
             </div>
           </div>
-          <div className="flex items-center gap-4 border border-sky-600 mt-10">
+          <div className="flex items-center justify-between gap-4  mt-10">
             <div>
               <img src={event} className="w-[48px] h-[48px]" alt="" />
             </div>
@@ -69,7 +69,7 @@ export const ClientPost = () => {
               <p className="text-base text-[#717171]">Event Bookings</p>
             </div>
             <div>
-              <img src={payment} className="w-[48px] h-[48px]" alt="" />
+              <img src={payment} className="w-[40px] h-[48px]" alt="" />
             </div>
 
             <div>
@@ -77,10 +77,7 @@ export const ClientPost = () => {
               <p className="text-base text-[#717171]">Payments</p>
             </div>
           </div>
-
-          
         </div>
-        
       </div>
     </>
   );
