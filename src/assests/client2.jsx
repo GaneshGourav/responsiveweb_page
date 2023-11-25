@@ -79,6 +79,31 @@ export const ClientPost = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-around items-center px-36 font-[Inter] text-left self-stretch m-auto ">
+        <div className="w-1440px">
+          <img src={clientLogo} className="py-12 h-[443px] w-[442px]" alt="" />
+        </div>
+        <div className="flex flex-col items-start">
+          <p className="text-4xl font-semibold  text-[#4D4D4D] ">
+            How to design your site footer like <br /> we did
+          </p>
+          <p className="mt-4 text-[#717171] text-sm">
+            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+            augue nec tincidunt <br /> molestie, massa nunc varius arcu, at
+            scelerisque elit erat a magna. Donec quis erat at <br /> libero
+            ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula
+            leo dui, at porta <br /> nisi facilisis finibus. In euismod augue
+            vitae nisi ultricies, non aliquet urna tincidunt. Integer <br /> in
+            nisi eget nulla commodo faucibus efficitur quis massa. Praesent
+            felis est, finibus et nisi <br /> ac, hendrerit venenatis libero.
+            Donec consectetur faucibus ipsum id gravida.
+          </p>
+          <button className="rounded bg-[#4CAF4F] px-8 py-3 text-white mt-8">
+            Learn More
+          </button>
+        </div>
+      </div>
     </>
   );
 };
