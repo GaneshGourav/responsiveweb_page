@@ -3,6 +3,13 @@ import memeberLogo from "../assests/memePng.png";
 import culbLogo from "../assests/culb.png";
 import event from "../assests/event.png";
 import payment from "../assests/payment.png";
+import clientLogo8 from "../assests/client-logo-8.png"
+import logo1 from "../assests/client-logo-1.svg";
+import logo2 from "../assests/client-logo-2.svg";
+import logo3 from "../assests/client-logo-3.svg";
+import logo4 from "../assests/client-logo-4.svg";
+import logo5 from "../assests/client-logo-6.svg";
+import logo6 from "../assests/client-logo-7.svg";
 
 export const ClientPost = () => {
   return (
@@ -29,7 +36,7 @@ export const ClientPost = () => {
         </div>
       </div>
 
-      <div className="flex px-36 py-16 justify-around items-center bg-[#F5F7FA] text-left font-[Inter]  ">
+      <div className="flex px-36 py-16 justify-around items-center bg-[#F5F7FA] text-left font-[Inter]">
         <div className=" w-1/3 py-5 px-2">
           <p className="text-4xl font-semibold text-[#4D4D4D] ">
             Helping a local <br />{" "}
@@ -104,6 +111,36 @@ export const ClientPost = () => {
           </button>
         </div>
       </div>
+
+
+<div className="flex px-36 py-16 gap-16 justify-around items-center bg-[#F5F7FA] text-left font-[Inter]" >
+  <div>
+    <img src={clientLogo8} className="w-[326px] h-[326px]" alt="" />
+  </div>
+  <div>
+    <div>
+      <p className="text-base font-medium text-[#717171]">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus <br /> tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida <br /> enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie <br /> mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse <br /> eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, <br /> vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum <br /> id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+      <p className="mt-4  text-xl font-semibold text-[#4CAF4F]" >Tim Smith</p>
+      <p className="text-base text-[#89939E] mt-2">British Dragon Boat Racing Association</p>
+
+      <div className="flex  justify-around border border-sky-400 gap-10 items-center mt-4 self-stretch">
+        <img src={logo1} alt="" />
+        <img src={logo2} alt="" />
+        <img src={logo3} alt="" />
+        <img src={logo4} alt="" />
+        <img src={logo5} alt="" />
+        <img src={logo6} alt="" />
+        <div className="w-[188px]"><p className="text-[#4CAF4F] font-semibold text-xl">Meet all customers</p></div>
+     
+        
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+      
     </>
   );
 };
