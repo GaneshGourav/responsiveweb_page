@@ -13,9 +13,6 @@ function App() {
       <Home />
       <Client/>
       <ClientPost/>
-
-
-      
       <Footer/>
     </div>
   );
