@@ -11,9 +11,9 @@ function App() {
     <div className="App overflow-hidden">
       <Navbar />
       <Home />
-      <Client/>
-      <ClientPost/>
-      <Footer/>
+      <Client />
+      <ClientPost />
+      <Footer />
     </div>
   );
 }

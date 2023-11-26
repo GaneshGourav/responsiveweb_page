@@ -67,8 +67,6 @@ export const Client = () => {
           </p>
         </div>
       </div>
-
-      
     </>
   );
 };
