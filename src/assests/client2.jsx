@@ -13,6 +13,7 @@ import logo6 from "../assests/client-logo-7.svg";
 import image18 from "../assests/image 18.png";
 import image19 from "../assests/image 19.png";
 import image20 from "../assests/image 20.png";
+import mobileLogin from "../assests/pana.jpg"
 
 export const ClientPost = () => {
   return (
@@ -92,7 +93,7 @@ export const ClientPost = () => {
 
       <div className="flex justify-around items-center px-36 font-[Inter] text-left self-stretch m-auto ">
         <div className="w-1440px">
-          <img src={clientLogo} className="py-12 h-[443px] w-[442px]" alt="" />
+          <img src={mobileLogin} className="py-12 h-[443px] w-[442px]" alt="" />
         </div>
         <div className="flex flex-col items-start">
           <p className="text-4xl font-semibold  text-[#4D4D4D] ">

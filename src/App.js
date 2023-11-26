@@ -8,7 +8,7 @@ import { Footer } from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <Navbar />
       <Home />
       <Client/>
