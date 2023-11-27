@@ -1,5 +1,7 @@
 import hero from "../assests/Illustration.svg";
 export const Home = () => {
+
+
   return (
     <>
       <div className="flex px-36 py-24 items-center gap-28 self-stretch  font-[Inter] text-left">
@@ -18,7 +20,10 @@ export const Home = () => {
         <div>
           <img src={hero} alt="" />
         </div>
+
       </div>
+
+      
     </>
   );
 };
